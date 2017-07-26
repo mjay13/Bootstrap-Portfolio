@@ -1,7 +1,14 @@
 .sidebar {
 	float: right;
     width: 100%;
-    max-width: 270px;
+    max-width: 340px;
     padding: 30px;
     margin-bottom: 20px;
+}
+
+
+/* Social Icon/Images */
+.social {
+	max-width: 75px;
+	max-height: auto;
 }
