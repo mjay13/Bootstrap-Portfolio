@@ -7,23 +7,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css">
-
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- local style sheets -->
-    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Megan M Jacobs | Contact</title>
 </head>
 
 <body>
-<nav class="navbar navbar-default">
+    <nav class="navbar navbar-default">
         <div class="container-fluid">
             <!-- Brand -->
             <div class="navbar-header">
@@ -47,91 +43,68 @@
         <!-- /.container-fluid -->
     </nav>
     <div class="container-fluid">
-<div>
-    <form class="form-horizontal">
-  <fieldset>
-    <legend>Legend</legend>
-    <div class="form-group">
-      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
-      <div class="col-lg-10">
-        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
-      <div class="col-lg-10">
-        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox"> Checkbox
-          </label>
+        <div class="jumbotron"> 
+            <form class="form-horizontal">
+                <fieldset>
+                    <legend>Contact Me</legend>
+                    <div class="form-group">
+                        <label for="inputName" class="col-lg-2 control-label">Name</label>
+                        <div class="col-lg-10">
+                            <input type="name" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                        <div class="col-lg-10">
+                            <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="textArea" class="col-lg-2 control-label">Message</label>
+                        <div class="col-lg-10">
+                            <textarea class="form-control" rows="3" id="textArea"></textarea>
+                            <span class="help-block">I look forward to hearing from you!</span>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-lg-10 col-lg-offset-2">
+                            <button type="reset" class="btn btn-default">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
         </div>
-      </div>
-    </div>
-    <div class="form-group">
-      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
-      <div class="col-lg-10">
-        <textarea class="form-control" rows="3" id="textArea"></textarea>
-        <span class="help-block">A longer block of help text that breaks onto a new line and may extend beyond one line.</span>
-      </div>
-    </div>
-    <div class="form-group">
-      <label class="col-lg-2 control-label">Radios</label>
-      <div class="col-lg-10">
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
-            Option one is this
-          </label>
+        <section class="sidebar">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <h2>Connect with Me</h2>
+                        </div>
+                        <div class="panel-footer"><a href="https://github.com/mjay13"><img src="assets/images/github-128.png" class="social img-thumbnail" alt="GitHub" /></a>
+                            <a href="https://www.linkedin.com/in/mjay13/"><img src="assets/images/linkedin-128.png" class="social img-thumbnail" alt="LinkedIn" /></a>
+                            <a href="https://meta.stackexchange.com/users/364793/mjay?tab=profile"><img src="assets/images/stackoverflow-128.png" class="social img-thumbnail" alt="Stack Overflow" /></a>
+                        </div>
+                    </div>
+                   
+                </section>
+                <div class="push"></div>
+            </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-            Option two can be something else
-          </label>
-        </div>
-      </div>
+        <footer>
+            <div class="container">
+                Copyright &copy; 2017 Megan M Jacobs
+            </div>
+        </footer>
     </div>
-    <div class="form-group">
-      <label for="select" class="col-lg-2 control-label">Selects</label>
-      <div class="col-lg-10">
-        <select class="form-control" id="select">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-        <br>
-        <select multiple="" class="form-control">
-          <option>1</option>
-          <option>2</option>
-          <option>3</option>
-          <option>4</option>
-          <option>5</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-lg-10 col-lg-offset-2">
-        <button type="reset" class="btn btn-default">Cancel</button>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </div>
-    </div>
-  </fieldset>
-</form>
-</div>
-	
-</div>
-
 </body>
-
 <script>
-    $(document).ready(function() {
-        $(".navbar-toggle").on("click", function() {
-            $(this).toggleClass("active");
-        });
+$(document).ready(function() {
+    $(".navbar-toggle").on("click", function() {
+        $(this).toggleClass("active");
     });
-    </script>
+});
+</script>
 
 </html>
