@@ -1,5 +1,5 @@
 .sidebar {
-	float: right;
+	
     width: 100%;
     max-width: 340px;
     padding: 30px;
@@ -11,4 +11,53 @@
 .social {
 	max-width: 75px;
 	max-height: auto;
+	padding: 1px;
+	margin: 2px;
+}
+
+/* Portfolio Images */
+
+.work {
+	position: relative;
+    float: left;
+   
+    margin: 20px 0 25px;
+    overflow: auto;
+}
+
+
+/* start hover styling */
+
+#logo:hover,
+input[type=submit]:hover {
+    background: #5e7f7e;
+}
+
+nav a:hover {
+    color: #5e7f7e;
+}
+
+.social:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+
+/* http://ryanfait.com/html5-sticky-footer/ */
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: auto !important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto -105px;
+}
+
+footer,
+.push {
+    height: 105px;
 }
